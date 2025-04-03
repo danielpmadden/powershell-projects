@@ -20,7 +20,7 @@ A PowerShell script to automatically organize files on the Windows Desktop into 
 
 ## How to Use
 
-1.  **Download:** Download the `Organize-Desktop.ps1` script from this repository.
+1.  **Download:** Download the `start-desktoporganizer.ps1` script from this repository.
 2.  **Customize (Optional):** Open the script in a text editor and modify the `$fileTypeMappings` variable near the top to change categories or add/remove file types.
 3.  **Execution Policy:** You may need to adjust your PowerShell Execution Policy. Open PowerShell as **Administrator** and run:
     ```powershell
@@ -28,8 +28,8 @@ A PowerShell script to automatically organize files on the Windows Desktop into 
     ```
     You can change `RemoteSigned` to `Unrestricted` if needed, but be aware of the security implications. Answer 'Y' or 'A' when prompted.
 4.  **Run:**
-    * Right-click the `Organize-Desktop.ps1` file and select "Run with PowerShell".
-    * OR Open PowerShell, navigate (`cd`) to the script's directory, and run: `.\Organize-Desktop.ps1`
+    * Right-click the `start-desktoporganizer.ps1` file and select "Run with PowerShell".
+    * OR Open PowerShell, navigate (`cd`) to the script's directory, and run: `.\start-desktoporganizer.ps1`
 5.  **Check Results:** A new `Desktop Organization [Date Time]` folder will appear on your Desktop containing the organized files and the log file.
 
 ## Disclaimer
