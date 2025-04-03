@@ -13,8 +13,6 @@
     The script will skip itself and its own log file.
 
 .NOTES
-    Author:        AI Assistant (Gemini)
-    Date Created:  2025-04-02
     Version:       1.0
     Prerequisites: PowerShell
     Execution:     Save as .ps1 file (e.g., Organize-Desktop.ps1). Right-click -> Run with PowerShell,
@@ -24,7 +22,7 @@
                    Consider backing up your Desktop before the first run.
 
 .EXAMPLE
-    .\Organize-Desktop.ps1
+    .\start-desktoporganizer.ps1
     (Runs the script with default settings)
 #>
 
