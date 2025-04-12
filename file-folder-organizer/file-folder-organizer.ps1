@@ -10,7 +10,7 @@
 
 # ===== USER CONFIGURATION =====
 # Set these values according to your needs
-$sourceFolderPath = "C:\Users\user\Downloads"  # Change this to your folder path
+$sourceFolderPath = "C:\Users\username\Downloads"  # Change this to your folder path
 $destinationPath = "C:\Users\username\Downloads\Organized"  # Change this to your destination
 $copyInsteadOfMove = $false  # Set to $true to copy files instead of moving them
 $recurseSubfolders = $false  # Set to $true to include files in subfolders
