@@ -6,23 +6,14 @@
     This script creates a hierarchical organization system where files are sorted 
     first into major categories (Documents, Media, etc.) and then into subcategories
     based on specific file types (.docx, .pdf, etc.).
-
-.NOTES
-    File Name      : Hierarchical-FileOrganizer.ps1
-    Prerequisites  : PowerShell
-    Execution      : .\Hierarchical-FileOrganizer.ps1
-
-.EXAMPLE
-    .\Hierarchical-FileOrganizer.ps1
-    (Organizes files according to the predefined hierarchical structure)
 #>
 
 # ===== USER CONFIGURATION =====
 # Set these values according to your needs
-$sourceFolderPath = "C:\Users\danie\Documents\My Resume & Cover Letter"  # Change this to your folder path
-$destinationPath = "C:\Users\danie\Documents\My Resume & Cover Letter\Organized"  # Change this to your destination
-$copyInsteadOfMove = $true  # Set to $true to copy files instead of moving them
-$recurseSubfolders = $true  # Set to $true to include files in subfolders
+$sourceFolderPath = "C:\Users\user\Downloads"  # Change this to your folder path
+$destinationPath = "C:\Users\username\Downloads\Organized"  # Change this to your destination
+$copyInsteadOfMove = $false  # Set to $true to copy files instead of moving them
+$recurseSubfolders = $false  # Set to $true to include files in subfolders
 # =============================
 
 # Validate source folder
